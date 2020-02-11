@@ -150,7 +150,7 @@ entityInv = minetest.create_detached_inventory(
 
 local function bag_envUpdate(self, dt)
 end
-
+prestibags_bag_collisionbox = {-0.33, 0.00, -0.33, 0.33, 0.64, 0.33}
 minetest.register_entity(
    "prestibags:bag_entity",
    {
@@ -158,7 +158,7 @@ minetest.register_entity(
          {
             hp_max = BAG_MAX_HP,
             physical = false,
-            collisionbox = {-0.33, 0.00, -0.33, 0.33, 0.64, 0.33},
+            collisionbox = prestibags_bag_collisionbox,
             visual = "mesh",
             visual_size = { x = 1, y = 1 },
             mesh = "prestibags_bag.b3d",
@@ -398,7 +398,7 @@ minetest.register_tool(
             nodeType = node and minetest.registered_nodes[node.name]
          end
          if not pos then pos = player:getpos() end
-
+         pos.y = pos.y - .5
          return rezEntity(stack, pos, player)
       end,
 
