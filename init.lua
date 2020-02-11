@@ -161,8 +161,8 @@ minetest.register_entity(
             collisionbox = { -0.44, -0.5, -0.425, 0.44, 0.35, 0.425 },
             visual = "mesh",
             visual_size = { x = 1, y = 1 },
-            mesh = "prestibags_bag.obj",
-            textures = { "prestibags_bag.png" }
+            mesh = "prestibags_bag.b3d",
+            textures = { "prestibags_bag.jpg" }
          },
 
       on_activate = function(self, staticData, dt)
