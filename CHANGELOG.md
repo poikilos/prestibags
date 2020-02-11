@@ -1,9 +1,8 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
+The format is based on [Keep a
+Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [git] - 2020-02-10
 ### Added
@@ -16,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Append all objects from old blend file into a new Blender 2.8 (2.81)
   file (Move objects into new collections based on old layout (layers)).
   - Layer 4 and 11 were visible (if using Blender 2.79).
-  - Overwrite "prestibags-hipoly.blend" with the new file
+  - Overwrite "prestibags-hipoly.blend" with the new file (same design).
 - Simplify the model (there was an exact copy of the bag with inverted
   normals inside the bag, but only polygons near the top are necessary).
   - Decimate to about 2%, then manually edit to make the rope and bag
