@@ -158,7 +158,7 @@ minetest.register_entity(
          {
             hp_max = BAG_MAX_HP,
             physical = false,
-            collisionbox = { -0.44, -0.5, -0.425, 0.44, 0.35, 0.425 },
+            collisionbox = {-0.33, 0.00, -0.33, 0.33, 0.64, 0.33},
             visual = "mesh",
             visual_size = { x = 1, y = 1 },
             mesh = "prestibags_bag.b3d",
