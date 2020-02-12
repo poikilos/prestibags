@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a
 Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [git] - 2020-02-12
+### Changed
+- The UVs for the entire fabric part and inside are now, where
+  applicable, square and aligned with pixels (as if the bag is made of a
+  single piece of fabric).
+  - The left side is aligned with the right side so that making or using
+    an existing rectangular seamless texture is now possible (see
+    "Re-texturing" in README.md)
+
 ## [git] - 2020-02-10
 ### Added
 - Low-poly version: "prestibags_bag.blend"
