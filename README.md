@@ -16,9 +16,9 @@ The following assume a 256x256 texture resolution (the locations under
 "UV Map details" do not). Also, to avoid texture edge artifacts, the UV
 map is actually 2px shy of the outline of the texture (4px total on each
 dimension), so expect up to 2px of the textures below to be cropped if
-they touch the edge. There will also be warping due to the bag shape,
-but due to the improved UV map, large text or decals will still be
-legible.
+they touch the edge (fabric: 2px left, 2px right, 4px bottom). There
+will also be warping due to the bag shape, but due to the improved UV
+map, large text or decals will still be legible.
 - To add a decal, the following location will place it on the "front"
   (The side seen upon placing the bag; The height can be anything, but y
   may have to be adjusted for different heights):
